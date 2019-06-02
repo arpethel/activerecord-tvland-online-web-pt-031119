@@ -4,7 +4,7 @@ class Show < ActiveRecord::Base
   belongs_to :network
 
   def call_letters(sss)
-    # binding.pry
+    binding.pry
   end
 
 
