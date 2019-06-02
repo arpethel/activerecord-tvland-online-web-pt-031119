@@ -13,7 +13,7 @@ class Actor < ActiveRecord::Base
     self.characters.collect do |character|
       # self.shows.collect do |show|
 
-      binding.pry
+      # binding.pry
       "#{character.name} - #{character.show.name}"
       # end
     end
