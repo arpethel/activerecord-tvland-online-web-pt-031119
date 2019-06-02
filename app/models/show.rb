@@ -5,5 +5,4 @@ class Show < ActiveRecord::Base
 
   def call_letters(network_call_letters)
   end
-
 end
