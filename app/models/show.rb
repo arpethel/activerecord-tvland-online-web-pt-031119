@@ -3,8 +3,7 @@ class Show < ActiveRecord::Base
   has_many :actors, through: :characters
   belongs_to :network
 
-  def call_letters(sss)
-    # binding.pry
+  def call_letters(network_call_letters)
   end
 
 
